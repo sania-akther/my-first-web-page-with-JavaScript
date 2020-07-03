@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- Latest compiled and minified CSS -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+ <!-- jQuery library -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ 
+ <!-- Latest compiled JavaScript -->
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+
+ <script src="js/index.js"></script>
+ <link rel="stylesheet" type="text/css" href="css/styles.css">
+ <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet"> 
+ <title>My first web page with javascript</title>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Most Sania akther sara</a>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                  <li class="active"><a href="#">Home</a></li>
+                  <li><a href="#">Page 1</a></li>
+                  <li><a href="#">Page 2</a></li>
+                  <li><a href="#">Page 3</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav> 
+  </header>
+  <!--welcome message-->
+ 
+  <!-- main containner start -->
+  <div id="main-content" class="container">
+    <h2 id="menu-categories-title" class="text-center">Skin & Beauty</h2>
+    <div class="text-center">
+        From the latest skin & beauty news, treatments and therapies, inspiring patient stories, to expert advice, we're here to help you live your healthiest life every day.
+    </div>
+    
+    <section class="row">
+        <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+                <div class="category-tile">
+                    <img id="a44" width="200" height="200" src="images/a.jpg" alt="Night Care" onmouseover = "setNewImage()" onmouseout = "setOldImage()">
+                    <span onmouseover="changeText(this, 'Night care')" onmouseout="changeText(this, 'Day care')">Day Care</span>
+                </div>
+         </div> 
+        <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+                <div class="category-tile">
+                    <img id="b44" width="200" height="200" src="images/b.png" alt="Night Care" onmouseover = "setNewImage()" onmouseout = "setOldImage()">
+                    <span onmouseover="changeText(this, 'Night care')" onmouseout="changeText(this, 'Day care')">Day Care</span>
+                </div>
+        </div>    
+        <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+            <div class="category-tile">
+                    <img id="c44" width="200" height="200" src="images/c.jpg" alt="Night Care" onmouseover = "setNewImage()" onmouseout = "setOldImage()">
+                    <span onmouseover="changeText(this, 'Night care')" onmouseout="changeText(this, 'Day care')">Day Care</span>
+                </div>
+        </div>    
+        <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+            <div class="category-tile">
+                    <img id="d44" width="200" height="200" src="images/d.jpg" alt="Night Care" onmouseover = "setNewImage()" onmouseout = "setOldImage()">
+                    <span onmouseover="changeText(this, 'Night care')" onmouseout="changeText(this, 'Day care')">Day Care</span>
+            </div>
+        </div>    
+        <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+            
+                <div class="category-tile">
+                    <img id="e44" width="200" height="200" src="images/e.jpg" alt="Night Care" onmouseover = "setNewImage()" onmouseout = "setOldImage()">
+                    <span onmouseover="changeText(this, 'Night care')" onmouseout="changeText(this, 'Day care')">Day Care</span>
+               
+            </div>
+        </div>    
+        <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+            
+                <div class="category-tile">
+                    <img id="f44" width="200" height="200" src="images/f.jpg" alt="Night Care" onmouseover = "setNewImage()" onmouseout = "setOldImage()">
+                    <span onmouseover="changeText(this, 'Night care')" onmouseout="changeText(this, 'Day care')">Day Care</span>
+                
+            </div>
+        </div>    
+        <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+            
+                <div class="category-tile">
+                    <img id="g44" width="200" height="200" src="images/g.png" alt="Night Care" onmouseover = "setNewImage()" onmouseout = "setOldImage()">
+                    <span onmouseover="changeText(this, 'Night care')" onmouseout="changeText(this, 'Day care')">Day Care</span>
+                
+            </div>
+        </div>    
+        <div class="col-md-3 col-sm-4 col-xs-6 col-xxs-12">
+            
+                <div class="category-tile">
+                    <img id="h44" width="200" height="200" src="images/h.png" alt="Night Care" onmouseover = "setNewImage()" onmouseout = "setOldImage()">
+                    <span onmouseover="changeText(this, 'Night care')" onmouseout="changeText(this, 'Day care')">Day Care</span>
+               </div>
+        </div>    
+   
+  
+    </section>
+    
+    </div><!-- end of #main content -->
+    
+
+<div class="container">
+    <h1 id="test" onload="setDate()">Tester</h1>
+    <button id="sara" type="button" onmouseover="displayDate()" onmouseout="undo()">The current date is <span id="date"></span></button>
+</div>
+
+</body>
+</html>
